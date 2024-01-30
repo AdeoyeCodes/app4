@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body1 {
+    background: linear-gradient(135deg, #3498db, #8e44ad);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.body2 {
+    background-color: whitesmoke;
+}
+.body3 {
+    background-color: whitesmoke;
+}
+.container {
+    flex: 1;
+    text-align: center;   
+    margin-top: 210px;
+    margin-bottom: 100px;
+}
+.container2 {
+    margin-top: 220px;
+    margin-left: 460px;
+    margin-right: 200px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: white;
+    border-radius: 18px;
+    width: 37%;
+}
+.container3 {
+    width: 53%;
+    margin-left: 230px;
+}
+header {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    justify-content: space-between;
+    background-color: white;
+    border-bottom: 2px solid #f0f0f0;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-top: 2px solid #f0f0f0;
+    padding-bottom: 6px;
+    margin-bottom: 0px;
+    padding-top: 28px;
+}
+ul {
+    margin-top: 40px;
+    margin-right: 230px;
+}
+li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 19px;
+    line-height: 3px;
+}
+.btn-info {
+    background-color: #4d8eb0;;
+    color: #fff;
+}
+ul a {
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+    margin-right:10px;
+    margin-left: 5px;
+}
+h1 {
+    margin-bottom: 19px;   
+}
+p {
+    font-size: 20px;
+    margin-top: 0dvh;
+    font-weight: normal;
+}
+img {
+    width: 11%;
+}
+.img {
+    margin-top: 8dvh; 
+    margin-left: -130dvh;
+    
+}
+.As {
+    font-size: 18px;
+    font-weight: normal;
+}
+i {
+    color: brown;
+}
+.comment-container {
+    margin-top: 10px;
+}
+.comment-input {
+    width: 70%;
+    margin-right: 10px;
+}
+.comment-btn {
+    margin-top: 10px;
+}
+.comment-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+.comment-list li {
+    border-bottom: 1px solid #ddd;
+    padding: 5px;
+}
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check {
+    display: none;
+}
+@media (max-width: 1068px) {
+    .container2 {
+        width: 54%;
+        margin-left: 25vh;
+    }
+    .h1s{
+        text-align: center;
+    }
+    a{
+        font-size: 16px;
+    }
+    img {
+        margin-left: 57vh;
+        margin-top: -30vh;
+        width: 30%;
+    }
+}
+
+@media (max-width: 1004px) {
+    img{
+        margin-right: 200px;
+        margin-left: 53%;
+        width: 40%;
+    }
+    ul{
+        margin-left: 40px;
+    }
+    a{
+        font-size: 16px;
+        margin-right: 26px;
+    }
+}
+
+@media (max-width: 992px) {
+    img {
+        width: 31%;
+        margin-right: 15vh;
+    }
+}
+
+@media (max-width: 991px) {
+    img {
+        width: 42%;
+        margin-left: 42vh;
+    }
+    .hp {
+        margin-right: 20vh;
+    }
+    .pp {
+        margin-right: 20vh;
+        font-size: 14px;
+    }
+    .container3 {
+        margin-left: 24vh;
+        width: 40%;
+    }
+}
+
+@media (max-width: 988px) {
+    img {
+        width: 31%;
+        margin-left: 58vh;
+    }
+    .hp {
+        margin-right: 20vh;
+    }
+    .pp {
+        margin-right: 20vh;
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 769px) {
+    .container2 {
+        width: 77%;
+        margin-left: 8vh;
+    }
+    img {
+        width: 80%;
+        height: 70%;
+        margin-top: -180vh;
+        margin-left: 8vh;
+        margin-bottom: -55vh
+    }
+    .container {
+        margin-top: 64vh;
+    }
+    .hp {
+        margin-right: -40vh;
+        
+        font-size: 60px;
+    }
+       
+}
+
+@media (max-width: 769px) {
+    .container3 {
+        margin-left: 9vh;
+        width: 60%;
+    }
+
+}
+
+@media (max-width: 620px) {
+    .container2 {
+        margin-left: 5vh;
+    }
+}
+
+@media (max-width: 486px) {
+    .forgot {
+        margin-left: 130px;
+        font-size: 10px;
+    }
+    .container3 {
+        margin-left: 6vh;
+        width: 60%;
+    }
+}
